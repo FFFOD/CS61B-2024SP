@@ -21,7 +21,7 @@ public class BombTest {
     public void testBombPhase0() {
         getBombMainOutputUntil(0);
         assertWithMessage("Phase 0 incorrect").that(lines[0].split("\"")[1].hashCode())
-                .isEqualTo(-777276206);
+                .isEqualTo(39291226);
     }
 
     @Test

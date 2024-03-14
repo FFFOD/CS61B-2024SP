@@ -14,7 +14,7 @@ public class BombMain {
             b.phase0("Figure this out. I wonder where the phases are defined...");
         }
         if (phase >= 1) {
-            b.phase1(null); // Figure this out too
+            b.phase1(39291226); // Figure this out too
         }
         if (phase >= 2) {
             b.phase2("Figure this out. I wonder where the phases are defined...");
