@@ -20,4 +20,19 @@ public class ArrayDeque61BTest {
 //         assertWithMessage("Found fields that are not array or primitives").that(badFields).isEmpty();
 //     }
 
+    @Test
+    void Array(){
+        ArrayDeque61B<Integer> ad = new ArrayDeque61B<>();
+        ad.addFirst(1101);
+        ad.addFirst(2202);
+        ad.addLast(-1001);
+        System.out.println(ad.size());
+//        System.out.println(ad.get(1));
+//         ad.printDeque();
+         ad.removeFirst();
+         ad.removeLast();
+                 ad.printDeque();
+    }
+
+
 }
