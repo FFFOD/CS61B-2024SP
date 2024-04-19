@@ -1,8 +1,13 @@
 package deque;
 
+import java.util.Comparator;
 import java.util.List;
 
-public class LinkedListDeque61B<T> implements Deque61B<T> {
+public class MaxArrayDeque61B<T> implements Deque61B<T> {
+    private Comparator<T> comparator;
+
+    public MaxArrayDeque61B() {
+    }
 
     @Override
     public void addFirst(T x) {
@@ -44,8 +49,8 @@ public class LinkedListDeque61B<T> implements Deque61B<T> {
         return null;
     }
 
-    @Override
-    public T getRecursive(int index) {
-        return null;
-    }
+//    @Override
+//    public T getRecursive(int index) {
+//        return null;
+//    }
 }

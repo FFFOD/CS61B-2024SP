@@ -76,5 +76,5 @@ public interface Deque61B<T> {
      * @param index index to get
      * @return element at {@code index} in the deque
      */
-    T getRecursive(int index);
+//    T getRecursive(int index);
 }
